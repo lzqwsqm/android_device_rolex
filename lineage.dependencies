@@ -1,6 +1,12 @@
 [
  {
-   "repository": "android_device_qcom_common",
+   "repository": "LineageOS/android_device_qcom_common",
    "target_path": "device/qcom/common"
- }
+   "branch": "cm-13.0"
+ },
+  {
+    "repository":  "HridayHS/android_kernel_xiaomi_msm8937",
+    "target_path": "kernel/xiaomi/msm8937",
+    "branch": "cm-13.0"
+  } 
 ]
