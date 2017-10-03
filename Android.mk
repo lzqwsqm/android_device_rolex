@@ -31,7 +31,7 @@ include $(call all-makefiles-under,$(LOCAL_PATH))
 
 include $(CLEAR_VARS)
 
-include kernel/xiaomi/msm8937/AndroidKernel.mk
+include device/xiaomi/rolex/kernel/AndroidKernel.mk
 
 # Create a link for the WCNSS config file, which ends up as a writable
 # version in /data/misc/wifi
